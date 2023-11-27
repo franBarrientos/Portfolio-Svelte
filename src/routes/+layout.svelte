@@ -27,7 +27,6 @@
 	onMount(() => {
 		toggleTheme();
 	});
-    export const prerender = true;
 
 </script>
 
@@ -103,3 +102,4 @@
 		<FooterCopyright href="/" by="Franco Barrientos" />
 	</Footer>
 </main>
+export const prerender = true;
