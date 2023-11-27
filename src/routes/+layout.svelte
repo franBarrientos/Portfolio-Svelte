@@ -27,6 +27,8 @@
 	onMount(() => {
 		toggleTheme();
 	});
+    export const prerender = true;
+
 </script>
 
 <main class="bg-white dark:bg-gray-950 min-h-screen flex justify-between flex-col">
