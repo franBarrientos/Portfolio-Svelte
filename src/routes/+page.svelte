@@ -1,5 +1,5 @@
 <script>
-	import { Button } from 'flowbite-svelte';
+	import { Button, Label, Input, ButtonGroup } from 'flowbite-svelte';
 	import Card from '../components/Card.svelte';
 	import Form from '../components/Form.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
@@ -61,7 +61,7 @@
 			</a>
 		</div>
 		<div class="w-full flex mt-4 order-1 lg:order-2 lg:mt-0 flex-col justify-center items-center">
-			<h1 class="dark:text-white text-xl p-0 m-0 font-bold ">Certifications</h1>
+			<h1 class="dark:text-white text-xl p-0 m-0 font-bold">Certifications</h1>
 			<a
 				href="https://www.udemy.com/certificate/UC-31083050-6269-496c-9af6-815de808386a/"
 				target="_blank"
@@ -125,8 +125,22 @@
 	>
 		<div class="lg:w-1/2 w-full px-5 flex flex-col mt-4 order-2 lg:order-1 lg:-mt-64">
 			<h1 class="dark:text-white text-xl font-bold text-center">Contact</h1>
-			<form class="mt-4 flex flex-col" netlify name="contact" method="POST">
-				<Form />
+			<form class="mt-4 flex flex-col" name="contact" data-netlify="true">
+				<div class="mb-3">
+					<Label for="name" class="block mb-2">Name</Label>
+					<Input required id="name" placeholder="Your Name" />
+				</div>
+				<div class="mb-3">
+					<Label for="email" class="block mb-2">Your Email</Label>
+					<Input required id="email" type="email" placeholder="name@flowbite.com">
+						<Envelope slot="left" width="w-5" heigth="h-5" />
+					</Input>
+				</div>
+
+				<div class="mb-3">
+					<Label for="email" class="block mb-2">Your Message</Label>
+					<Input required id="email" type="text" placeholder="Hi Fran !!"></Input>
+				</div>
 				<Button type="submit" size="sm"
 					><Envelope width="w-3" heigth="h-3" /><span class="ml-2">Send Email</span></Button
 				>
