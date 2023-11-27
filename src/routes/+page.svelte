@@ -125,7 +125,7 @@
 	>
 		<div class="lg:w-1/2 w-full px-5 flex flex-col mt-4 order-2 lg:order-1 lg:-mt-64">
 			<h1 class="dark:text-white text-xl font-bold text-center">Contact</h1>
-			<form class="mt-4 flex flex-col" name="contact" data-netlify="true">
+			<form class="mt-4 flex flex-col"  method="POST" name="contact" data-netlify="true">
 				<div class="mb-3">
 					<Label for="name" class="block mb-2">Name</Label>
 					<Input required id="name" placeholder="Your Name" />
