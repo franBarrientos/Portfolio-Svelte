@@ -1,7 +1,8 @@
-<script>
+<script context="module">
 	import { Label, Input, ButtonGroup, Button } from 'flowbite-svelte';
 	import Envelope from '../icons/envelope.svelte';
 	export const prerender = true;
+
 </script>
 
 		<form class="mt-4 flex flex-col" method="POST" name="contact" data-netlify="true">

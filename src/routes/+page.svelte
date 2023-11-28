@@ -1,10 +1,11 @@
-<script>
+<script context="module">
 	import { Button, Label, Input, ButtonGroup } from 'flowbite-svelte';
 	import Card from '../components/Card.svelte';
 	import Form from '../components/Form.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
 	import Download from '../icons/download.svelte';
 	import Envelope from '../icons/envelope.svelte';
+	export const prerender = true;
 </script>
 
 
