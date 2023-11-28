@@ -3,7 +3,7 @@
 	import Envelope from '../icons/envelope.svelte';
 </script>
 
-		<form class="mt-4 flex flex-col" method="POST" name="contact" data-netlify="true">
+		<form class="mt-1 flex flex-col border rounded-xl p-4" method="POST" name="contact" data-netlify="true">
 				<input type="hidden" name="form-name" value="contact" />
 				<div class="mb-3">
 					<Label for="name" class="block mb-2">Name</Label>
@@ -11,7 +11,7 @@
 				</div>
 				<div class="mb-3">
 					<Label for="email" class="block mb-2">Your Email</Label>
-					<Input required id="email" name="email"  type="email" placeholder="name@flowbite.com">
+					<Input required class="h-11"  id="email" name="email"  type="email" placeholder="name@flowbite.com">
 						<Envelope slot="left" width="w-5" heigth="h-5" />
 					</Input>
 				</div>
@@ -21,6 +21,6 @@
 					<Input required id="msj" name="msj"  type="text" placeholder="Hi Fran !!"></Input>
 				</div>
 				<Button type="submit" size="sm"
-					><Envelope width="w-3" heigth="h-3" /><span class="ml-2">Send messagge</span></Button
+					><Envelope width="w-3" heigth="h-3" /><span class="ml-2 font-medium text-lg">Send messagge</span></Button
 				>
 			</form>
