@@ -1,5 +1,5 @@
 <script>
-	import { Label, Input, ButtonGroup } from 'flowbite-svelte';
+	import { Label, Input, ButtonGroup, Button } from 'flowbite-svelte';
 	import Envelope from '../icons/envelope.svelte';
 	export const prerender = true;
 </script>
