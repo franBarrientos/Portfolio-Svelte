@@ -20,9 +20,9 @@
 					<span class="text-xl font-light">Backend Developer</span>
 				</div>
 			</div>
-			<div class="cursor-pointer hover:text-blue-500 flex items-center gap-2">
+			<a class="cursor-pointer hover:text-blue-500 flex items-center gap-2" src="/cv.pdf" download>
 				<span class="text-lg mt-1">CV</span><Download />
-			</div>
+			</a>
 		</div>
 		<div class="w-full flex mt-4 lg:mt-0 flex-col justify-center items-center">
 			<h1 class="dark:text-white text-xl font-bold">Education</h1>
