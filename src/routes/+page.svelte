@@ -5,7 +5,6 @@
 	import ProjectCard from '../components/ProjectCard.svelte';
 	import Download from '../icons/download.svelte';
 	import Envelope from '../icons/envelope.svelte';
-	export const prerender = true;
 </script>
 
 
