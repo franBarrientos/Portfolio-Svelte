@@ -7,6 +7,8 @@
 	import Envelope from '../icons/envelope.svelte';
 </script>
 
+<input type="hidden" name="contact" value="contact" />
+
 <div class="container mx-auto p-2 flex flex-col justify-center items-center">
 	<div class="flex flex-col lg:flex-row justify-around w-full gap-2 my-5">
 		<div
@@ -120,7 +122,7 @@
 		</div>
 	</div>
 
-	<input type="hidden" name="form-name" value="contact" />
+	<input type="hidden" name="contact" value="contact" />
 
 
 	<div
