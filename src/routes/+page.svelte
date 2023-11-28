@@ -20,7 +20,7 @@
 					<span class="text-xl font-light">Backend Developer</span>
 				</div>
 			</div>
-			<a class="cursor-pointer hover:text-blue-500 flex items-center gap-2" src="/cv.pdf" download>
+			<a class="cursor-pointer hover:text-blue-500 flex items-center gap-2" href="/cv.pdf" download>
 				<span class="text-lg mt-1">CV</span><Download />
 			</a>
 		</div>
