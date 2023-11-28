@@ -8,7 +8,6 @@
 	export const prerender = true;
 </script>
 
-<input type="hidden" name="form-name" value="contact" />
 
 <div class="container mx-auto p-2 flex flex-col justify-center items-center">
 	<div class="flex flex-col lg:flex-row justify-around w-full gap-2 my-5">
@@ -132,7 +131,8 @@
 		<div class="lg:w-1/2 w-full px-5 flex flex-col mt-4 order-2 lg:order-1 lg:-mt-64">
 			<h1 class="dark:text-white text-xl font-bold text-center">Contact</h1>
 			
-			<form class="mt-4 flex flex-col"  name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+			<form class="mt-4 flex flex-col"  name="contact" method="POST" data-netlify="true">
+				<input type="hidden" name="form-name" value="contact" />
 				<div class="mb-3">
 					<Label for="name" class="block mb-2">Name</Label>
 					<Input  required id="name" name="name" placeholder="Your Name" />
