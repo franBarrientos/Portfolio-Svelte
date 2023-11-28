@@ -47,7 +47,7 @@
             <DarkMode class="px-0 py-2 ml-5" size="lg" />
         </button>
 		<NavUl ulClass="flex  p-4 justify-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium" activeUrl={$page.url.pathname}>
-			<NavLi class="mr-2"  href="https://www.linkedin.com/in/franco-barrientos/?locale=en_US"
+			<NavLi class="mr-2"  href="https://www.instagram.com/franbarrientos__"
 				><Instagram width={40} heigth={40} /></NavLi
 			>
 			<NavLi href="https://www.linkedin.com/in/franco-barrientos/?locale=en_US"
@@ -102,4 +102,3 @@
 		<FooterCopyright href="/" by="Franco Barrientos" />
 	</Footer>
 </main>
-export const prerender = true;
